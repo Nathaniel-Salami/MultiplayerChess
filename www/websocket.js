@@ -1,4 +1,4 @@
-//Nathaniel Salami (101045858) && Temitayo Oyelowo (101044160)
+//Nathaniel Salami && Temitayo Oyelowo
 
 var sendBoardArray = null;
 var sendSelectedPiece = null;
