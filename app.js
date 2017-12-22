@@ -1,4 +1,5 @@
 var http = require('http');
+var port = process.env.PORT || 3000;
 //npm modules (need to install these first)
 var WebSocketServer = require('ws').Server; //provides web sockets
 var ecStatic = require('ecstatic');  //provides static file server service
@@ -47,4 +48,4 @@ function broadcast(msg) {
 
 }
 
-server.listen(3000);
+server.listen(port);
