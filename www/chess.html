@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Team Chess Game</title>
+  </head>
+  <body>
+
+	<div style = "display: none;">
+		<!--WHITE PIECES-->
+		<img id="WHITE_ROOK" src="CHESS/WHITE/WHITE_ROOK.png">
+		<img id="WHITE_KNIGHT" src="CHESS/WHITE/WHITE_KNIGHT.png">
+		<img id="WHITE_BISHOP" src="CHESS/WHITE/WHITE_BISHOP.png">
+		<img id="WHITE_QUEEN" src="CHESS/WHITE/WHITE_QUEEN.png">
+		<img id="WHITE_KING" src="CHESS/WHITE/WHITE_KING.png">
+		<img id="WHITE_PAWN" src="CHESS/WHITE/WHITE_PAWN.png">
+
+		<!--BLACK PIECES-->
+		<img id="BLACK_ROOK" src="CHESS/BLACK/BLACK_ROOK.png">
+		<img id="BLACK_KNIGHT" src="CHESS/BLACK/BLACK_KNIGHT.png">
+		<img id="BLACK_BISHOP" src="CHESS/BLACK/BLACK_BISHOP.png">
+		<img id="BLACK_QUEEN" src="CHESS/BLACK/BLACK_QUEEN.png">
+		<img id="BLACK_KING" src="CHESS/BLACK/BLACK_KING.png">
+		<img id="BLACK_PAWN" src="CHESS/BLACK/BLACK_PAWN.png">
+
+		<!--CHESS BOARD-->
+		<img id="BOARD" src="CHESS/BOARD.jpg">
+	</div>
+		<canvas id='canvas1' class='canvas' width='600' height='590'>Canvas not supported</canvas>
+		<h2 id='name'></h2>
+		
+		<script src='canvas.js'></script>
+		<script src='websocket.js'></script>
+
+    <input type="button" value="Forfeit" onClick="handleForfeitButton()">
+
+  </body>
+</html>

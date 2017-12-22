@@ -1,0 +1,25 @@
+{
+  "name": "Multi-player-chess",
+  "version": "0.0.1",
+  "description": "A simple Node.js chess game",
+  "main": "app.js",
+  "scripts": {
+	"start": "node app.js"
+  },
+  "dependencies": {
+    "ws": "~0.4.32",
+    "ecstatic": "~0.5.4"
+  },
+  "engines":{
+	"node": "6.11.3"
+  },
+  "repository":{
+	"type": "git",
+	"url": 
+  },
+  "keywords":[
+	"node",
+	"heroku",
+	"express"
+  ]
+}
