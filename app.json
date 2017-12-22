@@ -1,7 +1,0 @@
-{
-	"name": "Multi-player-chess",
-	"description": "A simple Node.js chess game",
-	"repository": "https://github.com/Temitayooyelowo/MultiplayerChess.git",
-	"keywords":	["node","express","static"],
-	"image": "heroku/nodejs"
-}
