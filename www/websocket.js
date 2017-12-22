@@ -1,3 +1,4 @@
+//Nathaniel Salami && Temitayo Oyelowo 
 var sendBoardArray = null;
 var sendSelectedPiece = null;
 var handleKeyPress = null;
@@ -24,18 +25,18 @@ document.addEventListener("canvasReady", function(event) {
 
 			if (received == 'BLACK') {
 				//console.log(received);
-				alert("You are " + received);
+				alert("You are on the " + received + " Team");
 				playerColor = received;
 				//&emsp; to insert tab space
-				document.getElementById('name').innerHTML += "&emsp;&emsp; COLOR: " + playerColor;
+				document.getElementById('name').innerHTML += "&emsp;&emsp; TEAM COLOR: " + playerColor;
 				//detectPlayerColor();
 			}
 			else if (received == 'WHITE') {
 				//console.log(received);
-				alert("You are " + received);
+				alert("You are on the " + received + " Team");
 				playerColor = received;
 				//&emsp; to insert tab space
-				document.getElementById('name').innerHTML += "&emsp;&emsp; COLOR: " + playerColor;
+				document.getElementById('name').innerHTML += "&emsp;&emsp; TEAM COLOR: " + playerColor;
 				//detectPlayerColor();
 			}
 
@@ -71,5 +72,5 @@ document.addEventListener("canvasReady", function(event) {
 		sendPlayerColor = function sendPlayerColor(){
 			ws.send(nextPlayerColor);
 		}
-		
+
 });
