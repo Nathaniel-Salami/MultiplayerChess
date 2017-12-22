@@ -1,4 +1,4 @@
-//Temitayo Oyelowo  && Nathaniel Salami 
+//Nathaniel Salami && Temitayo Oyelowo
 
 //***NOTE***//
 //DRAWING AND DETECTING X AND Y ARE SWAPPED
@@ -1237,8 +1237,8 @@ window.onload = (function(){
 	//add mouse down listener to our canvas object
 	canvas.addEventListener("mousedown", handleMouseDown);
 
-	document.getElementById('name').innerHTML = "NAME: " + prompt("What is your name?", "Temitayo");
-	
+	document.getElementById('name').innerHTML = "NAME: " + prompt("What is your name?", "Player");
+
 	console.log("Dispatch the canvasDoneEvent");
 	document.dispatchEvent(canvasDoneEvent);
 	drawGame();
